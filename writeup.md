@@ -119,9 +119,7 @@ I think the most import step is I didn't use the validation dataset (`X_valid`) 
 
 ####1. Choose five German traffic signs found on the web and provide them in the report. 
 
-Here are five German traffic signs that I found on the web:
-![](Image_output/00000.ppm) ![](Image_output/00001.ppm) ![](Image_output/00002.ppm) 
-![](Image_output/00003.ppm) ![](Image_output/00004.ppm)
+Five German traffic signs that I found on the web are show in below question.
 
 
 ####2. Discuss the model's predictions on these new traffic signs and compare the results to predicting on the test set. At a minimum, discuss what the predictions were, the accuracy on these new predictions, and compare the accuracy to the accuracy on the test set (OPTIONAL: Discuss the results in more detail as described in the "Stand Out Suggestions" part of the rubric).
