@@ -61,7 +61,7 @@ signs data set:
 
 Here is an exploratory visualization of the training data set. It is a bar chart showing how many class of labels, and the number of examples per class.
 
-![alt text][Image_output/visualization_dataset.png]
+![X_train_histogram](Image_output/visualization_dataset.png)
 
 ###Design and Test a Model Architecture
 ####1.Preprocessing
@@ -121,12 +121,12 @@ I think the most import step is I didn't use the validation dataset (`X_valid`) 
 
 Here are five German traffic signs that I found on the web:
 
-![alt text]['GTSRB/00000.ppm'] ![alt text]['GTSRB/00001.ppm'] ![alt text]['GTSRB/00002.ppm'] 
-![alt text]['GTSRB/00003.ppm'] ![alt text]['GTSRB/00004.ppm']
+![]('GTSRB/00000.ppm') ![]('GTSRB/00001.ppm') ![]('GTSRB/00002.ppm') 
+![]('GTSRB/00003.ppm') ![]('GTSRB/00004.ppm')
 
 
 ####2. Discuss the model's predictions on these new traffic signs and compare the results to predicting on the test set. At a minimum, discuss what the predictions were, the accuracy on these new predictions, and compare the accuracy to the accuracy on the test set (OPTIONAL: Discuss the results in more detail as described in the "Stand Out Suggestions" part of the rubric).
-
+![5 images]('plot_5_images.png')
 Here are the results of the prediction:
 
 | Image										|Prediction										| 
@@ -153,7 +153,7 @@ For the first image, the model is relatively sure that this is a stop sign (prob
 | 1.00					| Vehicles over 3.5 metric tons				|
 | 1.00	      			| Turn right ahead					 		|
 | 1.00				    | Keep right      							|
-
+![]('Image_output/Softmax_pob.png')
 
 
 
