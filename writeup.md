@@ -105,14 +105,19 @@ My final model results were:
 
 If an iterative approach was chosen:
 * What was the first architecture that was tried and why was it chosen?
+
 I chosen `LeNet(without dropout step)` in the first time because I think this architecture can get a high accuracy. And I'm familiar with the LeNet architecture, so coding start with LeNet will help me know more about Neural Network's coding.
 * What were some problems with the initial architecture?
+
 The initial architecture I just use 10 epoches to train my notwork, so the validation accuracy is 0.81~0.86. And I check my code and result, I think that if I use epoch 20times, the result will imporve, and then I try, my accuracy imporve a little, 87%. But still lower than requiretment.
 * How was the architecture adjusted and why was it adjusted? Typical adjustments could include choosing a different model architecture, adding or taking away layers (pooling, dropout, convolution, etc), using an activation function or changing the activation function. One common justification for adjusting an architecture would be due to overfitting or underfitting. A high accuracy on the training set but low accuracy on the validation set indicates over fitting; a low accuracy on both sets indicates under fitting.
+
 I try `LeNet(with dropout)` after I got validation accuracy using `LeNet(without dropout step)`, and the accuracy imporve a little. Because improvement isn't significant, so I try to use image preprocessing, and this time accuracy is really high. Last adjustment is I use `LeNet2()`, now the validation accuracy reach 99.7%.
 * Which parameters were tuned? How were they adjusted and why?
+
 I check my code and result, I think that if I use epoch 20times, the result will imporve, and then I try, my accuracy imporve a little, 87%. And I use different epochs, but accuracy didn't imporve much. So I think the architecture is more important than the parameter. 
 * What are some of the important design choices and why were they chosen? For example, why might a convolution layer work well with this problem? How might a dropout layer help with creating a successful model?
+
 I think the most import step is I didn't use the validation dataset (`X_valid`) which I download from the udacity finally, I spilt a new validation dateset (`X_valid_spilt`) from (`X_train_normalized`) to validate `LeNet2()`. This method make my accuracy improve significately 
 
 ###Test a Model on New Images
