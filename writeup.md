@@ -124,6 +124,7 @@ I think the most import step is I didn't use the validation dataset (`X_valid`) 
 
 ####1. Choose five German traffic signs found on the web and provide them in the report. 
 
+I noticed that `00000.ppm` tend to be quite a bit darker and blur. `00001.ppm`,`00002.ppm` and`00004.ppm` is bright and clear but still isn't the straight ahead of the camera. Except traffic sigh, in `00001.ppm`,`00002.ppm` ,`00003.ppm` and`00004.ppm`, image still have other information or noise like surrounding environment, such as tree and sky. All of these could be confusion for the model, that's why I need to make more dataset using `translate function`,`scale function`, etc. 
 Five German traffic signs that I found on the web are show in below question.
 
 
